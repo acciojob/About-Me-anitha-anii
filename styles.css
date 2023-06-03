@@ -1,1 +1,56 @@
-
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+.container{
+  
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.info{
+  width: 750px;
+  height: 450px;
+  background-color: brown;
+  display: flex;
+  gap: 10px;
+  box-shadow: 8px 2px 8px 1px;
+ padding: 20px;
+}
+.first{
+  display: flex;
+  gap: 10px;
+}
+.container2{
+  width: 400px;
+  height: 20px;
+  background-color: aqua;
+}
+.percent{
+ background-color: rgb(36, 36, 173);
+  width: 60%;
+ 
+  
+}
+p{
+  display: inline;
+  
+}
+.percent1{
+  background-color: rgb(36, 36, 173);
+   width: 80%;
+}
+.percent2{
+  background-color: rgb(36, 36, 173);
+   width: 90%;
+}
+.percent3{
+  background-color: rgb(36, 36, 173);
+   width: 50%;
+}
+img{
+  border-radius: 30px;
+}
